@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Dessert"
-    android:textColor="@color/applightblue"
+    android:textColor="@color/apptextcolor"
     android:textSize="18sp"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:background="@color/appbackground">
 
 </TextView>

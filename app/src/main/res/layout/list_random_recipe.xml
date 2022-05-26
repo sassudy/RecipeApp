@@ -5,13 +5,15 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:id="@+id/random_list_container"
-    app:cardBackgroundColor="@android:color/white"
+    app:cardBackgroundColor="@color/appbackground"
     app:cardElevation="8dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/appmainboxes">
+
 
         <TextView
             android:id="@+id/textView_title"
@@ -20,7 +22,7 @@
             android:marqueeRepeatLimit="marquee_forever"
             android:scrollHorizontally="true"
             android:textStyle="bold"
-            android:textColor="@color/applightblue"
+            android:textColor="@color/apptextcolor"
             android:textSize="22sp"
             android:padding="8dp"
             android:text="Dish Name"
@@ -52,7 +54,7 @@
                     android:textSize="14sp"
                     android:padding="8dp"
                     android:text="2 Persons"
-                    android:textColor="@color/black"
+                    android:textColor="@color/apptextcolor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -72,7 +74,7 @@
                     android:textSize="14sp"
                     android:padding="8dp"
                     android:text="2 Persons"
-                    android:textColor="@color/black"
+                    android:textColor="@color/apptextcolor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -92,7 +94,7 @@
                     android:textSize="14sp"
                     android:padding="8dp"
                     android:text="2 Persons"
-                    android:textColor="@color/black"
+                    android:textColor="@color/apptextcolor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>

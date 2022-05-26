@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/appbackground"
     app:cardElevation="8dp"
     android:layout_margin="8dp">
     <LinearLayout
@@ -13,7 +13,7 @@
         <TextView
             android:id="@+id/textView_instruction_name"
             android:text="Instructions"
-            android:textColor="@color/applightblue"
+            android:textColor="@color/apptextcolor"
             android:textAlignment="center"
             android:textSize="18sp"
             android:padding="8dp"

@@ -5,6 +5,6 @@
     android:padding="8dp"
     android:text="Menu"
     android:textSize="18sp"
-    android:textColor="@color/applightblue">
+    android:textColor="@color/apptextcolor">
 
 </CheckedTextView>
